@@ -98,4 +98,21 @@ values (5, 3, 5, '2021-07-05', '2021-08-02', 1)
 
 
 
+select top(10)* from kategoria 
+
+
+select top(10)* from UZYTKOWNICY u 
+ --do doczytania 
+co zrobić aby hasło było hashowane. (jakiej użyć funkcji)
+
+
+select p.KATEGORIA_ID,
+	   p.TYTUL,
+	   p.ILOSC_NOMINALNA,
+	   p.AUTOR 
+from PRODUKTY p 
+
+
+select top(100)* from KATEGORIA_ROZSZERZONA
+
 
